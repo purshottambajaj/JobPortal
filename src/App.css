@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #002147;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.logo .highlight {
+  color: #ffc107;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links .btn {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.jobseeker-login {
+  background-color: #ffc107;
+  color: #002147;
+}
+
+.employer-login {
+  background-color: #28a745;
+}
+
+/* Banner Styles */
+.banner {
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.banner-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.banner-buttons {
+  margin-top: 15px;
+}
+
+.banner-buttons .btn {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.sales-enquiry {
+  display: inline-block;
+  margin-top: 10px;
+  color: white;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+/* Main Content */
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.job-search {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.search-container {
+  margin-top: 15px;
+}
+
+.search-input {
+  padding: 10px;
+  width: 60%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.btn {
+  padding: 10px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-btn {
+  background-color: #ffc107;
+  color: #002147;
+}
+
+.view-jobs-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.register-free-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.quick-job-search {
+  text-align: center;
+}
+
+.tags {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tag {
+  background-color: #e9ecef;
+  padding: 8px 12px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #007bff;
+  font-size: 14px;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #002147;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
